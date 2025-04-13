@@ -3,5 +3,27 @@
     "webOnly": {"prompt": "https://wallet.bigant.ca/"},
     "textAndWeb": {"prompt": "ブロックチェン関連の仮想通貨やNFTみたいの暗号化電子資産。https://wallet.bigant.ca/"},
     "reachRateLimit": {"prompt": "https://cars.tvbs.com.tw/report/230533 https://cars.tvbs.com.tw/report/230533　https://cars.tvbs.com.tw/report/230533 https://cars.tvbs.com.tw/report/230533"},
-    "missingRequirePara": {"prompt_test": "abcdefghijklmnopqrstuvwxyz"}
+    "missingRequirePara": {"prompt_test": "abcdefghijklmnopqrstuvwxyz"},
+    "normal": [
+        {"prompt": "我們專賣手工製作的皮革包包。"},
+        {"prompt": "我們是一家專注於運動用品的電商平台。"},
+        {"prompt": "網站專注於旅遊行程規劃和票務服務。"},
+        {"prompt": "提供學校及公司制服的訂製服務。"},
+        {"prompt": "我們的產品為有機栽培的咖啡豆與茶葉。"},
+        {"prompt": "網站上販售家用智能設備，如燈泡和音響。"},
+        {"prompt": "我們的商品是設計師款式的限量服飾。"},
+        {"prompt": "https://wallet.bigant.ca/"},
+        {"prompt": "寵物用品商城：https://petparadise.com"},
+        {"prompt": "大阪的出張板前壽司、便當、宅配服務：https://sushimaster.jp"}
+    ],
+    "irregular": [
+        {"prompt": "幫我找到股票市場的最新趨勢。"},
+        {"prompt": "請推薦我一部好看的電影。"},
+        {"prompt": "我需要了解如何開設自己的咖啡廳。"},
+        {"prompt": "幫我設計一個活動行銷方案。"},
+        {"prompt": "幫我解釋加密貨幣交易的風險。"},
+        {"prompt": "這個網址是真的嗎？https://suspicious-link.com"},
+        {"prompt": "請推薦一個適合小團體的旅遊地點。"},
+        {"prompt": "幫我寫一篇關於區塊鏈的論文。"}
+    ]
 }

@@ -1,10 +1,15 @@
 import pytest
-from httpx import AsyncClient, Client
+from httpx import AsyncClient
 import json
 import asyncio
+import logging
+from os import getenv
 
 
-testEndPoint = "http://127.0.0.1:8000"
+logger = logging.getLogger(__name__)
+
+testEndPoint = getenv("TEST_ENDPOINT", "http://localhost:8000")
+testEvent = json.load(open("./test/events/prompt.json", "r", encoding="utf-8"))
 
 @pytest.mark.asyncio
 async def test_create_one_session():

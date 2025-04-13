@@ -2,3 +2,5 @@ __pycache__
 .env
 venv
 ngrok.exe
+.vscode
+test/log_result/*

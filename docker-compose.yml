@@ -5,7 +5,7 @@ services:
     build: .
     container_name: app-container
     ports:
-      - "8000:8000"
+      - "192.168.0.113:8001:8000"
     depends_on:
       - redis
     env_file:
